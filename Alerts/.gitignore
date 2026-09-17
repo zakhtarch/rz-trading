@@ -1,0 +1,10 @@
+auth.json
+bot.json
+last_rz_alert.json
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+RZ_Chaudhrys.pine
+analysis/tv_cache/
+analysis/*.json

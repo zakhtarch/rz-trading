@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+open_trades.json
+trades.csv
+runtime.json
+.env
+*.log
+heartbeat.json

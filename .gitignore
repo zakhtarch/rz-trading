@@ -1,0 +1,33 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+
+# Local agent notes (not for public GitHub)
+.cursor/
+**/.cursor/
+AGENTS.md
+
+# Secrets / live session (never commit)
+auth.json
+bot.json
+last_rz_alert.json
+
+# Bot runtime (VPS / local)
+open_trades.json
+trades.csv
+runtime.json
+heartbeat.json
+
+# Private strategy source (not published)
+Alerts/RZ_Chaudhrys.pine
+**/RZ_Chaudhrys.pine
+*.pine
+
+# Analysis artifacts
+Alerts/analysis/tv_cache/
+Alerts/analysis/*.json
+Alerts/analysis/*_run.log
+Alerts/analysis/*_results.json
